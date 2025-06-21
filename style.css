@@ -11,7 +11,7 @@
 }
 
 .logo img {
-  width: 100px;         /* Controls logo size */
+  width: 160px;         /* Controls logo size */
   height: auto;         /* Maintains aspect ratio */
   display: block;       /* Removes inline spacing */
   transition: transform 0.3s ease; /* For smooth animation on hover or scroll */
