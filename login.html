@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Furniflex - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <section class="login-container">
+  <div class="login-card">
+    <h2>Welcome Back to <span>Furniflex</span></h2>
+    <form class="login-form" action="#" method="POST">
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" name="phone" placeholder="e.g. +91-9876543210" required>
+      </div>
+
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter password" required>
+        <span class="toggle-password" onclick="togglePassword()">👁</span>
+      </div>
+
+      <div class="form-options">
+        <label><input type="checkbox"> Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+      <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+    </form>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
